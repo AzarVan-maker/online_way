@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О курсе — SkillNova</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-bar">
+        <a class="logo" href="index.html">SkillNova</a>
+        <button class="menu-toggle" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Главная</a>
+          <a href="program.html">Программа</a>
+          <a href="about.html" class="active">О курсе</a>
+          <a href="reviews.html">Отзывы</a>
+          <a href="enroll.html" class="btn btn-small">Записаться</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <p class="eyebrow">О формате обучения</p>
+          <h1>Курс, который помогает учиться спокойно и результативно</h1>
+          <p class="hero-text">Мы уделяем внимание не только теории, но и тому, как человек действительно закрепляет знания и применяет их.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container page-grid">
+          <div class="page-card">
+            <h2>Почему этот формат работает</h2>
+            <p>Обучение построено вокруг коротких модулей, понятных объяснений и регулярной практики. Нет лишней информации и перегруза.</p>
+            <p>Вы можете учиться в удобное время, а наставник помогает не терять мотивацию и не застревать на сложных моментах.</p>
+          </div>
+          <div class="list-card">
+            <h3>Для кого подходит</h3>
+            <ul>
+              <li>Для начинающих</li>
+              <li>Для тех, кто хочет системно улучшить навык</li>
+              <li>Для тех, кому важен понятный и структурированный подход</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <span>© <span id="year"></span> SkillNova</span>
+        <a href="mailto:hello@skillnova.ru">hello@skillnova.ru</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
