@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Запись на курс — SkillNova</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-bar">
+        <a class="logo" href="index.html">SkillNova</a>
+        <button class="menu-toggle" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Главная</a>
+          <a href="program.html">Программа</a>
+          <a href="about.html">О курсе</a>
+          <a href="reviews.html">Отзывы</a>
+          <a href="enroll.html" class="active btn btn-small">Записаться</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <p class="eyebrow">Запись на курс</p>
+          <h1>Оставьте заявку и мы подберём для вас лучший вариант</h1>
+          <p class="hero-text">Заполните форму — и менеджер свяжется с вами, чтобы рассказать про даты, формат и условия участия.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container page-grid">
+          <div class="form-card">
+            <form class="application-form">
+              <label>
+                Имя
+                <input type="text" name="name" placeholder="Ваше имя" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Цель обучения
+                <select name="goal">
+                  <option>Освоить навык с нуля</option>
+                  <option>Улучшить текущие знания</option>
+                  <option>Применить навык в работе</option>
+                </select>
+              </label>
+              <label>
+                Комментарий
+                <textarea name="comment" placeholder="Кратко расскажите о себе и ожиданиях"></textarea>
+              </label>
+              <button class="btn" type="submit">Отправить заявку</button>
+              <div class="form-message"></div>
+            </form>
+          </div>
+          <div class="list-card">
+            <h3>Что будет дальше</h3>
+            <ul>
+              <li>Мы свяжемся с вами в течение дня</li>
+              <li>Подберём удобный поток</li>
+              <li>Ответим на все вопросы по оплате и формату</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <span>© <span id="year"></span> SkillNova</span>
+        <a href="mailto:hello@skillnova.ru">hello@skillnova.ru</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
